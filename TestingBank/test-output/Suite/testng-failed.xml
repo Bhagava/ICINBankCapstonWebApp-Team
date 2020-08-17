@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Sanity(failed)">
+    <classes>
+      <class name="com.testing.Myprofile">
+        <methods>
+          <include name="viewProfile"/>
+        </methods>
+      </class> <!-- com.testing.Myprofile -->
+      <class name="com.testing.RegistrationTest">
+        <methods>
+          <include name="SignUp"/>
+        </methods>
+      </class> <!-- com.testing.RegistrationTest -->
+      <class name="com.testing.ChequeBookRequest">
+        <methods>
+          <include name="chequeRequest"/>
+        </methods>
+      </class> <!-- com.testing.ChequeBookRequest -->
+    </classes>
+  </test> <!-- Sanity(failed) -->
+</suite> <!-- Failed suite [Suite] -->
